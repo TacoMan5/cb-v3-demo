@@ -1,0 +1,26 @@
+# Chaturbate V3 Streamer Apps
+
+## Project Overview
+This project is aimed at improving the tools available for streamers on platforms like Chaturbate. It includes customizable apps such as:
+
+- Tip Menus
+- Lovense Integration
+- Tip Goals
+- Ticket Shows
+
+The project focuses on ease of use and high customization, providing a better experience for both streamers and their audience.
+
+## Technologies Used
+- **Python**: Core logic and app functionality.
+- **SQL Server**: Database management for app settings and user data.
+- **MQTT**: Real-time communication between the apps and devices.
+- **Ignition**: User interface and control visualization.
+
+## Demo
+Visit the [GitHub Pages Demo](https://YOURUSERNAME.github.io/chaturbate-v3-app) to see the project in action, including video demonstrations.
+
+## Features
+- Fully customizable Tip Menus with real-time updates.
+- Lovense integration for better control and interaction with Lovense toys.
+- Tip Goals and Ticket Shows, providing better monetization tools for streamers.
+

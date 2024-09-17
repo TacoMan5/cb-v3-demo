@@ -10,12 +10,12 @@ This project is aimed at improving the tools available for streamers on platform
 
 As well as the following features:
 
-- Live Tools page to show chat messages, tips, tip fors, user enter/exit, followers, and the ability to send live on-the-fly chat notices
-- Timer tool for displaying a timer on screen in OBS
-- Auto-start feature that will automatically start your stream thru OBS
-- Stream Themes to customize room broadcast panel, subject line, and notices (user, chat, and room owner). Customizations include font weight, color, and position for broadcast panel. Broadcast panel and subject line also allow parameters which can show current tip amount, tip goal, etc.
-- Member Groups give room owners the ability to give users special priviledges like extra vibration time/intensity as well as special icons in chat
-- Blocked Words to ensure room owners have control over negativity in their chat
+- Live Tools
+- Timer
+- Stream Start
+- Stream Themes
+- Member Groups
+- Blocked Words
 
 The project focuses on ease of use and high customization, providing a better and more interactive experience for both streamers and their audience.
 

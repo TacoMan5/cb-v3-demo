@@ -32,9 +32,14 @@
       padding: 1em;
       background-color: #333;
       color: white;
-      position: fixed;
       width: 100%;
       bottom: 0;
+      position: fixed;
+      opacity: 0; /* Start hidden */
+      transition: opacity 0.5s ease; /* Smooth transition for showing/hiding */
+    }
+    footer.visible {
+      opacity: 1; /* Show when visible */
     }
   </style>
 </head>
@@ -59,13 +64,13 @@
   <p>Stream Starting and Background Features</p>
 
   <video controls>
-    <source src="2 - Overview.mp4" type="video/mp4">
+    <source src="media/2 - Overview.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <p>Four Nations Overview Screen</p>
 
   <video controls>
-    <source src="3 - New Theme.mp4" type="video/mp4">
+    <source src="media/3 - New Theme.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <p>Setting a new Stream Theme</p>
@@ -83,9 +88,20 @@
   <p>Visit the <a href="https://github.com/tacoman5/cb-v3-demo/">GitHub Repository</a> to explore more about this project.</p>
 </section>
 
-<footer>
+<footer id="footer">
   <p>Created by Aidian Field</p>
 </footer>
+
+<script>
+  window.onscroll = function() {
+    var footer = document.getElementById('footer');
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+      footer.classList.add('visible');
+    } else {
+      footer.classList.remove('visible');
+    }
+  };
+</script>
 
 </body>
 </html>
